@@ -33,5 +33,5 @@ edges_1<-int_2 %>%
   rename(weight = persent_ring)
 aa_net_1 <- tbl_graph(
   nodes = nodes, edges = edges, directed = TRUE)
-summary(aa_net)
+summary(aa_net_1)
 
